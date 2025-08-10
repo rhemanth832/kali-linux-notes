@@ -1,0 +1,23 @@
+HOW TO LOOK IP ADDRESS AND DETAILS OF A WEBSITE :
+
+nslookup
+
+To Download: sudo apt install nslookup
+
+Ex:  nslookup facebook.com
+
+host 
+
+Ex: host facebook.com
+
+dig
+
+Ex: dig facebook.com
+
+ping 
+
+Ex: ping facebook.com
+
+whois
+
+Ex: whois facebook.com 

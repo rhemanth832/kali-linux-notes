@@ -1,0 +1,21 @@
+SMTP Server :    smtp-relay.brevo.com
+Port        :    587
+Login       :    22jr1a43g9@gmail.com
+Master Pwd  :    ANfO4WCaZMrDpBUH
+
+
+sample:
+
+sendemail -xu rasamsettyhemanthsaketh@outlook.com -xp {Passwd} -s smtp.office365.com:587 -f "rasamsettyhemanthsaketh@gmail.com" -t "rasamsettyhemanthsaketh@outlook.com" -u "Hacked" -m "try to checkout in www.google.com"        
+
+Outlook SMTP:
+
+Server name: smtp.office365.com
+Port: 587
+Encryption method: STARTTLS  
+
+google SMTP:
+Server name: smtp.gmail.com
+Port: 587
+
+
